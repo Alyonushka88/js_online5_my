@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="conteiner">
+                <div class="header-wrap">
+                    <a class="logo"  href="#">
+                        <img src="/logo.png" alt="A-level">
+                    </a>
+                    <nav class="nav">
+                        <label class="openner" for="burger" >
+                            <span></span>
+                        </label>
+                        <input  class="burger" type="checkbox" name="" id="burger">
+                        <ul class="nav-list">
+                            <li class="nav-items">
+                                <a href="" class="nav-link">Item1</a>
+                            </li>
+                            <li class="nav-items">
+                                <a href="" class="nav-link">Item2</a>
+                            </li>
+                            <li class="nav-items">
+                                <a href="" class="nav-link">Item3</a>
+                            </li>
+                            <li class="nav-items">
+                                <a href="" class="nav-link">Item4</a>
+                            </li>
+                            <li class="nav-items">
+                                <a href="" class="nav-link">Item5</a>
+                            </li>   
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="content">
+                <p style="text-align: center;"> <span style="font-style: italic; font-size: larger;"  >Основные преимущества flexbox</span>  <br>
+                    1.Блоки легко становятся гибкими, элементы могут сжиматься и растягиваться, заполняя пространство. <br>
+                    2.Неважно, в каком порядке расположены HTML-элементы. Вы можете изменить их порядок через CSS <br>
+                    3.Располагать элементы в одном из четырех направлений: слева направо, справа налево, сверху вниз или снизу вверх. <br>
+                    4.Переопределять порядок отображения элементов. <br>
+                    5.Автоматически определять размеры элементов таким образом, чтобы они вписывались в доступное пространство. <br>
+                    6.Решать проблему с горизонтальным и вертикальным центрированием. <br>
+                    7.Переносить элементы внутри контейнера, не допуская его переполнения. <br>
+                    8.Создавать колонки одинаковой высоты. <br>
+                    9.Создавать прижатый к низу страницы футер</p>
+
+                <section class="section-card">
+                    <h1 class="title"></h1>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <a href="" class="card-image" style="background-image: url(/photo1.jfif)"></a>
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <a class="title-card" href="#">Flex-direction</a>
+                                    </h4>
+                                    <p style="text-align: center;">Свойство flex-direction определяет, каким образом flex-элементы укладываются во flex-контейнере, 
+                                        задавая направление главной оси flex-контейнера. 
+                                        Они могут располагаться в двух главных направлениях — горизонтально, как строки или вертикально, как колонки. 
+                                        Главная ось по умолчанию идет слева направо. 
+                                        Поперечная – сверху вниз. </p>
+                                </div>
+                                <div class="card-footer">
+                                    <a class="btn" href=""> Go</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="" class="card-image" style="background-image: url(/photo1.jfif)"></a>
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <a class="title-card" href="#">Flex-wrap</a>
+                                    </h4>
+                                    <p style="text-align: center;">Свойство flex-wrap управляет тем, как flex-контейнер будет выкладывать
+                                        flex-элементы — в одну строку или в несколько,
+                                        и направлением, в котором будут укладываться новые строки. 
+                                        По умолчанию flex-элементы укладываются в одну строку. 
+                                        При переполнении контейнера их содержимое будет выходить за границы 
+                                        flex-элементов. Не наследуется. </p>
+                                </div>
+                                <div class="card-footer">
+                                    <a class="btn" href=""> Go</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="" class="card-image" style="background-image: url( /photo1.jfif)"></a>
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <a class="title-card" href="#">Order</a>
+                                    </h4>
+                                    <p style="text-align: center;">Свойство order определяет порядок, в котором flex-элементы отображаются внутри flex-контейнера. 
+                                        По умолчанию для всех flex-элементов задан порядок order: 0; 
+                                        и они следуют друг за другом по мере добавления во flex-контейнер. 
+                                        Самый первый flex-элемент по умолчанию расположен слева. 
+                                        Чтобы поставить любой flex-элемент в начало строки, ему нужно назначить order: -1; 
+                                        в конец строки — order: 1.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a class="btn" href=""> Go</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="" class="card-image" style="background-image: url( /photo1.jfif)"></a>
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <a class="title-card" href="#">Align-items</a>
+                                    </h4>
+                                    <p style="text-align: center;">Свойство align-items выравнивает flex-элементы, в том числе и анонимные
+                                        flex-элементы по перпендикулярной оси (по высоте). </p>
+                                </div>
+                                <div class="card-footer">
+                                    <a class="btn" href=""> Go</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="" class="card-image" style="background-image: url(/photo1.jfif)"></a>
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <a class="title-card" href="#">Align-content</a>
+                                    </h4>
+                                    <p style="text-align: center;">Свойство CSS align-content выравнивает линии контейнера flex в контейнере
+                                        flex при наличии дополнительного пространства на перекрестной оси.
+                                        Это свойство не имеет никакое влияние на однострочные гибкие блоки.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a class="btn" href=""> Go</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="" class="card-image" style="background-image: url( /photo1.jfif)"></a>
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <a class="title-card" href="#">Justify-content</a>
+                                    </h4>
+                                    <p style="text-align: center;">Свойство justify-content выравнивает flex-элементы 
+                                        по ширине flex-контейнера, распределяя оставшееся
+                                        свободное пространство, незанятое flex-элементами. </p>   
+                                </div>
+                                <div class="card-footer">
+                                    <a class="btn" href=""> Go</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+            <!--part3-->
+            <div class="order">
+                <div class="holder">
+                    <div class="item1">1</div>
+                    <div class="item2">2</div>
+                    <div class="item3">3</div>
+                    <div class="item4">4</div>
+                    <div class="item5">5</div>
+                  </div>
+            </div>
+            </div>
+            <aside class="sidebar sidebar-left">
+                <span>Aside1</span>
+            </aside>
+            <aside class="sidebar sidebar-right">
+                <span>Aside2</span>
+            </aside>
+
+        </main>
+        <footer class="footer">
+            <span>Footer</span>
+        </footer>
+    </div>
+     
+</body>
+</html>
